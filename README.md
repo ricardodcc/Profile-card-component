@@ -19,7 +19,7 @@ This is a solution to the [Profile card component](https://www.frontendmentor.io
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/desktop-responsive-component-w-min-and-max-width-v-q1wDCVwD)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-desktop-profile-card-wsass-CQaVj86BjF)
 - Live Site URL: (https://ricardodcc.github.io/Profile-card-component/)
 
 ## My process
