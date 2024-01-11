@@ -1,0 +1,16 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--c-bg-image);
+    background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 55vw bottom 48vh,left 54vw top 52vh;
+}
+
+.container{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+}

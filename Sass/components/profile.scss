@@ -1,0 +1,77 @@
+.profile{
+    background-color: var(--c-white);
+    border-radius: 1rem;
+    max-width: 425px;
+    overflow: hidden;
+    text-align: center;
+
+    &__header{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    &__photo{
+        border-radius: 50%;
+        border: .4rem solid var(--c-white);
+        height: auto;
+        margin-top: -68px;
+        max-width: 130px;
+        margin-bottom: 1rem;
+    }
+
+    .personal{
+        align-items: baseline;
+        display: flex;
+        font-size: var(--fs-primary);
+        color: var(--c-primary);
+        justify-content: center;
+        margin-bottom: .6rem;
+        gap: .5rem;
+
+        &__name{
+            text-transform: capitalize;
+        }
+
+        &__age{
+            font-size: 20px;
+            color: var(--c-age-text);
+        }
+    }
+    
+    &__location{
+        color: var(--c-age-text);
+        text-transform: capitalize;
+        margin-bottom: 1.75rem;
+    }
+    
+    &__stats{
+        border-top: 1px solid #0000001f;
+    }
+}
+
+
+.stats-list{
+    @extend %rest-list-style;
+
+    color: var(--c-secundary);
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1.5rem 0;
+    
+    &__item{
+        .value{
+            color: var(--c-primary);
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: .25rem;
+        }
+
+        p+p{
+            text-transform: capitalize;
+            font-size: .75rem;
+            letter-spacing: 2px;
+        }
+    }
+}
